@@ -38,4 +38,4 @@ Este proyecto está configurado para producción. Puedes visitarlo en vivo aquí
 
 ## 📄 Licencia
 
-Este proyecto está bajo la licencia MIT. ¡Siéntete libre de usarlo, mejorarlo y compartirlo!
+@_TODOS LOS DERECHOS DE AUTOR RESERVADOS_
