@@ -34,7 +34,7 @@ Si quieres clonar este proyecto y probarlo en tu máquina local, sigue estos pas
 ## 🌐 Despliegue (GitHub Pages)
 
 Este proyecto está configurado para producción. Puedes visitarlo en vivo aquí:
-👉 **[Enlace a tu PWA de GitHub Pages](https://TU_USUARIO.github.io/TU_REPOSITORIO/)** *(Reemplaza esto con tu link real)*
+👉 **[Enlace a tu PWA de GitHub Pages]((https://melvinalexander-13.github.io/pwa_contruccion_de_la_reconstruccion/))** *(Reemplaza esto con tu link real)*
 
 ## 📄 Licencia
 
