@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Monitor de Red PWA</title>
+
+
+    <!-- PWA -->
+
+    <link rel="manifest" href="manifest.json">
+
+    <meta name="theme-color" content="#0d6efd">
+
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body>
+
+
+<div class="contenedor">
+
+
+    <h1>
+        🌐 Monitor de Red
+    </h1>
+
+
+
+    <div id="estado" class="offline">
+
+        Verificando conexión...
+
+    </div>
+
+
+
+
+    <div class="info">
+
+
+        <p id="conexion">
+            📶 Tipo de conexión: Desconocido
+        </p>
+
+
+
+        <p id="ip">
+            🌍 IP Pública: Cargando...
+        </p>
+
+
+
+        <p id="latencia">
+            ⚡ Latencia: Pendiente
+        </p>
+
+
+
+        <p id="hora">
+            🕒 Última prueba: --
+        </p>
+
+
+
+    </div>
+
+
+
+
+
+    <button onclick="probarRed()">
+
+        🚀 Ejecutar prueba
+
+    </button>
+
+
+
+
+    <button id="installBtn" hidden>
+
+        📲 Instalar Aplicación
+
+    </button>
+
+
+
+
+    <div id="iosMessage" hidden>
+
+        📱 iPhone:
+
+        Compartir ➜ Añadir a pantalla de inicio
+
+    </div>
+
+
+
+</div>
+
+
+
+
+
+<footer>
+
+    © 2026 Alexander_Sanchez | 3° Software
+
+</footer>
+
+
+
+<!-- JavaScript externo -->
+
+<script src="app.js"></script>
+
+
+</body>
+
+
+</html>

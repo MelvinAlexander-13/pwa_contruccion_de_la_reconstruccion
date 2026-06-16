@@ -1,0 +1,433 @@
+/* ===========================
+   RESET GENERAL
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+
+    font-family:
+        "Segoe UI",
+        Roboto,
+        Arial,
+        sans-serif;
+
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    background:
+        linear-gradient(
+            135deg,
+            #0d6efd,
+            #6610f2
+        );
+
+    padding:20px;
+}
+
+
+/* ===========================
+   CONTENEDOR PRINCIPAL
+=========================== */
+
+
+.contenedor{
+
+    width:100%;
+    max-width:450px;
+
+    background:
+        rgba(255,255,255,.92);
+
+    backdrop-filter:
+        blur(15px);
+
+    padding:35px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+
+    box-shadow:
+
+        0 20px 40px
+        rgba(0,0,0,.20);
+
+
+    animation:
+
+        aparecer .6s ease;
+
+}
+
+
+/* Animación entrada */
+
+@keyframes aparecer{
+
+    from{
+
+        opacity:0;
+        transform:
+        translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:
+        translateY(0);
+
+    }
+
+}
+
+
+
+/* ===========================
+        TITULO
+=========================== */
+
+
+h1{
+
+    color:#212529;
+
+    font-size:32px;
+
+    margin-bottom:25px;
+
+    font-weight:700;
+
+}
+
+
+
+/* ===========================
+        ESTADO RED
+=========================== */
+
+
+#estado{
+
+    padding:18px;
+
+    border-radius:15px;
+
+    color:white;
+
+    font-weight:700;
+
+    font-size:18px;
+
+    margin-bottom:25px;
+
+
+    transition:.3s;
+
+
+    box-shadow:
+
+        0 8px 20px
+        rgba(0,0,0,.15);
+
+}
+
+
+
+.online{
+
+    background:
+
+        linear-gradient(
+            135deg,
+            #28a745,
+            #20c997
+        );
+
+}
+
+
+
+.offline{
+
+    background:
+
+        linear-gradient(
+            135deg,
+            #dc3545,
+            #ff6b6b
+        );
+
+}
+
+
+
+/* ===========================
+        INFORMACION
+=========================== */
+
+
+.info{
+
+    background:#f8f9fa;
+
+    padding:15px;
+
+    border-radius:15px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.info p{
+
+    margin:14px 0;
+
+    text-align:left;
+
+    color:#495057;
+
+    font-size:15px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    border-bottom:
+
+        1px solid #dee2e6;
+
+    padding-bottom:8px;
+
+}
+
+
+
+.info p:last-child{
+
+    border-bottom:none;
+
+}
+
+
+
+/* ===========================
+        BOTONES
+=========================== */
+
+
+button{
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:14px;
+
+    margin-top:12px;
+
+
+    cursor:pointer;
+
+
+    font-size:16px;
+
+    font-weight:600;
+
+
+    transition:
+
+        transform .2s ease,
+        box-shadow .2s ease;
+
+
+}
+
+
+
+button:hover{
+
+
+    transform:
+        translateY(-3px);
+
+
+    box-shadow:
+
+        0 10px 20px
+        rgba(0,0,0,.18);
+
+
+}
+
+
+
+button:active{
+
+    transform:
+        scale(.97);
+
+}
+
+
+
+/* Boton actualizar */
+
+
+button:first-of-type{
+
+
+    background:
+
+        linear-gradient(
+            135deg,
+            #198754,
+            #20c997
+        );
+
+
+    color:white;
+
+}
+
+
+
+/* Boton instalar PWA */
+
+
+#installBtn{
+
+
+    background:
+
+        linear-gradient(
+            135deg,
+            #0d6efd,
+            #0dcaf0
+        );
+
+
+    color:white;
+
+}
+
+
+
+/* ===========================
+        MENSAJE IOS
+=========================== */
+
+
+#iosMessage{
+
+
+    margin-top:20px;
+
+
+    background:
+
+        linear-gradient(
+            135deg,
+            #fff3cd,
+            #ffe69c
+        );
+
+
+    color:#664d03;
+
+
+    padding:15px;
+
+
+    border-radius:15px;
+
+
+    font-size:14px;
+
+
+    border-left:
+
+        5px solid #ffc107;
+
+
+    animation:
+
+        aparecer .5s ease;
+
+}
+
+
+
+/* ===========================
+        FOOTER
+=========================== */
+
+
+footer{
+
+
+    margin-top:25px;
+
+
+    color:
+
+        rgba(255,255,255,.85);
+
+
+    font-size:14px;
+
+
+    text-align:center;
+
+}
+
+
+
+/* ===========================
+        RESPONSIVE
+=========================== */
+
+
+@media(max-width:480px){
+
+
+    .contenedor{
+
+        padding:25px;
+
+        border-radius:20px;
+
+    }
+
+
+    h1{
+
+        font-size:26px;
+
+    }
+
+
+    button{
+
+        font-size:15px;
+
+    }
+
+
+}
